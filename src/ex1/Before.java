@@ -1,10 +1,7 @@
+package ex1;
+
 public class Before {
     public static void main(String[] args) {
-        for (String t :
-                args) {
-            System.out.println(t);
-        }
-        System.out.println(args);
         int mi, ma;
         if (args.length == 0) {
             System.out.println("No numbers");
